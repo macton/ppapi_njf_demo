@@ -1,0 +1,6 @@
+{
+  "program": {
+    "x86-32": {"url": "ppapi_njf_demo_x86_32.nexe"},
+    "x86-64": {"url": "ppapi_njf_demo_x86_64.nexe"}
+  }
+}

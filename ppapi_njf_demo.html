@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <!-- Copyright (c) 2011 Google Inc.  All rights reserved. -->
+  <head>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache" />
+    <META HTTP-EQUIV="Expires" CONTENT="-1" />
+    <title>PPAPI Demo</title>
+  </head>
+  <style type="text/css">
+    html, body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: 444;
+  }
+  </style>
+  <body style="height:100%">
+    <h1>PPAPI Simple Demo</h1>
+  <br>
+  The rectangle below should have a blue background with a green border.
+  A red box should appear under the mouse cursor if it is within the
+  blue area. The blue area should resize appropraitely if the
+  browser window is resized.
+  <br>
+    <embed type="application/x-nacl" id="test_nexe"
+           name="nacl_module"
+           src="ppapi_njf_demo.nmf"
+           style="background-color:#0000FF"
+           width="80%" height="80%" />
+  </body>
+</html>

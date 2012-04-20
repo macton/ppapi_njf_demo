@@ -1,0 +1,10 @@
+NaCl Pepper 18 OpenGLES C API skeleton demo
+Original source by Nicholas: https://groups.google.com/d/msg/native-client-discuss/r7SP2YwFBsE/Ig_mRpVYO3wJ
+
+Edit for Pepper 18: Mike Acton
+* PPB_View API changed
+* Note: PPB_View header documentation is wrong.
+* structs typedef'd in API headers
+* Removed audio sample (not working)
+* Other minor changes
+

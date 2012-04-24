@@ -1,5 +1,5 @@
 NaCl Pepper 18 OpenGLES C API skeleton demo
-Original source by Nicholas: https://groups.google.com/d/msg/native-client-discuss/r7SP2YwFBsE/Ig_mRpVYO3wJ
+Original source by Nicholas Fullagar: https://groups.google.com/d/msg/native-client-discuss/r7SP2YwFBsE/Ig_mRpVYO3wJ
 
 Edit for Pepper 18: Mike Acton
 * PPB_View API changed

@@ -17,7 +17,7 @@
 #
 PROJECT:=ppapi_njf_demo
 LDFLAGS:=-lppapi_gles2 -lppapi_cpp -lppapi
-CXX_SOURCES=ppapi_njf_demo.cc ppapi_njf_frame.cc
+CXX_SOURCES=ppapi_njf_demo.cc ppapi_njf_frame.cc ppapi_njf_audio.cc
 
 #
 # Get pepper directory for toolchain and includes.
@@ -72,4 +72,7 @@ $(PROJECT)_x86_64.nexe : $(x86_64_OBJS)
 RUN: all
 	python ../httpd.py
 
-
+.PHONY: clean
+clean: 
+	rm *.o
+	rm *.nexe

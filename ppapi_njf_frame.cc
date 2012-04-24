@@ -12,8 +12,7 @@
 
 #include "ppapi_njf_demo.h"
 
-void RenderFrameStartup(InstanceInfo* instance) 
-{
+void RenderFrameStartup(InstanceInfo* instance) {
   char *ext;
   printf("---- Starting up 3d in NaCl\n");
   ext = (char*) glGetString(GL_EXTENSIONS);
@@ -49,8 +48,7 @@ void RenderFrameStartup(InstanceInfo* instance)
   }
 }
 
-void RenderFrame(InstanceInfo* instance) 
-{
+void RenderFrame(InstanceInfo* instance) {
   static int32_t counter = 0;
   glEnable(GL_SCISSOR_TEST);
   glViewport(0, 0, instance->width, instance->height);

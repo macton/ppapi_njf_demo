@@ -9,7 +9,7 @@
   </head>
   <style type="text/css">
     html, body {
-	margin-left: 0px;
+	margin-left: 20px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -18,16 +18,22 @@
   </style>
   <body style="height:100%">
     <h1>PPAPI Simple Demo</h1>
-  <br>
-  The rectangle below should have a blue background with a green border.
-  A red box should appear under the mouse cursor if it is within the
-  blue area. The blue area should resize appropraitely if the
-  browser window is resized.
-  <br>
+    Make sure you have Native Client enabled in Chrome.
+    <ol>
+      <li>Type about:flags in the Chrome address bar.</li>
+      <li>Scroll down to "Native Client" and click the "Enable" link.</li>
+      <li>Scroll down to the bottom of the page and click the "Relaunch Now" button. Native Client will not be enabled until you relaunch your browser. All browser windows will restart when you relaunch Chrome.</li>
+    </ol>
+    <br>
+    The rectangle below should have a blue background with a green border.
+    A red box should appear under the mouse cursor if it is within the
+    blue area. The blue area should resize appropraitely if the
+    browser window is resized. 
+    <br>
     <embed type="application/x-nacl" id="test_nexe"
            name="nacl_module"
            src="ppapi_njf_demo.nmf"
            style="background-color:#0000FF"
-           width="80%" height="80%" />
+           width="90%" height="70%" />
   </body>
 </html>
